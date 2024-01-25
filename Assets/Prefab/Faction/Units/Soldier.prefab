@@ -5140,6 +5140,7 @@ GameObject:
   - component: {fileID: -2491347842026017345}
   - component: {fileID: 5123849575021710886}
   - component: {fileID: 3190416712916175441}
+  - component: {fileID: 3870076588842783480}
   m_Layer: 0
   m_Name: Soldier
   m_TagString: Untagged
@@ -5188,7 +5189,7 @@ Animator:
   m_GameObject: {fileID: 186328}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
-  m_Controller: {fileID: 9100000, guid: 9b5f3dc79387670409bc8aac8597ddd2, type: 2}
+  m_Controller: {fileID: 9100000, guid: fc837cca68ddf5d4b9d1aea8e43f2a41, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -5254,6 +5255,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cf3170b9ad4e3b4ab4ccf752ea08a81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  unitName: 
+  unitPic: {fileID: 0}
+  curHP: 0
+  maxHP: 100
+  moveSpeed: 5
+  minWpnDamage: 0
+  maxWpnDamage: 0
+  armour: 0
+  visualRange: 0
+  weaponRange: 0
+  state: 0
+  faction: {fileID: 0}
+  selectionVisual: {fileID: 0}
+--- !u!114 &3870076588842783480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43e879ebd94cce4890dd742ee94d661, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &186630
