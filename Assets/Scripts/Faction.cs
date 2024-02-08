@@ -27,6 +27,8 @@ public class Faction : MonoBehaviour
     public int Gold { get { return gold; } set { gold = value; } }
     [SerializeField] private int stone;
     public int Stone { get { return stone; } set { stone = value; } }
+    [SerializeField] private List<Unit> aliveUnits = new List<Unit>();
+    public List<Unit> AliveUnits { get { return aliveUnits; } }
     // Start is called before the first frame update
     void Start()
     {
@@ -64,5 +66,7 @@ public class Faction : MonoBehaviour
     {
         return aliveUnits.Contains(u);
     }
+    
+
 }
 

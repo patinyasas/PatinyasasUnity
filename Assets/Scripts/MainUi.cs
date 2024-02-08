@@ -8,7 +8,7 @@ public class MainUi : MonoBehaviour
     [SerializeField]
     private GameObject selectionMarker;
     public GameObject SelectionMarker { get { return selectionMarker; } }
-    [SerializeField] private TextMeshProUGUI unitCountTest;
+    [SerializeField] private TextMeshProUGUI unitCountText;
     [SerializeField] private TextMeshProUGUI foodText;
     [SerializeField] private TextMeshProUGUI woodText;
     [SerializeField] private TextMeshProUGUI goldText;
