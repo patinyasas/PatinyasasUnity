@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class MainUi : MonoBehaviour
+public class MainUI : MonoBehaviour
 {
     [SerializeField]
     private GameObject selectionMarker;
@@ -13,7 +13,7 @@ public class MainUi : MonoBehaviour
     [SerializeField] private TextMeshProUGUI woodText;
     [SerializeField] private TextMeshProUGUI goldText;
     [SerializeField] private TextMeshProUGUI stoneText;
-    public static MainUi instance;
+    public static MainUI instance;
     public void UpdateAllResource(Faction faction)
     {
         unitCountText.text = faction.AliveUnits.Count.ToString();

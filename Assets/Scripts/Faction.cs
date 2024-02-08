@@ -29,6 +29,13 @@ public class Faction : MonoBehaviour
     public int Stone { get { return stone; } set { stone = value; } }
     [SerializeField] private List<Unit> aliveUnits = new List<Unit>();
     public List<Unit> AliveUnits { get { return aliveUnits; } }
+    [SerializeField] private List<Building> aliveBuildings = new List<Building>();
+    public List<Building> AliveBuildings { get { return aliveBuildings; } }
+
+    public bool IsMyBuilding(Building b)
+    {
+        return aliveBuildings.Contains(b);
+    }
     // Start is called before the first frame update
     void Start()
     {

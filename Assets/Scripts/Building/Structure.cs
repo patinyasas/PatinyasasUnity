@@ -21,6 +21,10 @@ public class Structure : MonoBehaviour
 
     [SerializeField]
     protected Faction faction;
+    [SerializeField]
+    protected GameObject selectionVisual;
+    public GameObject SelectionVisual { get { return selectionVisual; } }
+
     // Start is called before the first frame update
     void Start()
     {

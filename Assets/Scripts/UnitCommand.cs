@@ -28,7 +28,7 @@ public class UnitCommand : MonoBehaviour
     private void CommandToGround(RaycastHit hit, Unit unit)
     {
         UnitsMoveToPosition(hit.point, unit);
-        CreateVFXMarker(hit.point, MainUi.instance.SelectionMarker);
+        CreateVFXMarker(hit.point, MainUI.instance.SelectionMarker);
     }
     private void TryCommand(Vector2 screenPos)
     {
