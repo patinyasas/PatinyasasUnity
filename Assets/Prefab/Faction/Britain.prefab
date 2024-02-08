@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2211602722099484162}
   - component: {fileID: 4828419548993589517}
+  - component: {fileID: 6691664910402525448}
+  - component: {fileID: 6874094228025103}
   m_Layer: 0
   m_Name: Britain
   m_TagString: Untagged
@@ -44,3 +46,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58121a0e22d8a8545baff72f6300ca5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nation: 0
+  food: 1000
+  wood: 600
+  gold: 500
+  stone: 200
+  aliveUnits: []
+  aliveBuildings: []
+--- !u!114 &6691664910402525448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172071792706210328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db52a880ee7a2a041bd37d775865dc67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  curUnit: {fileID: 0}
+--- !u!114 &6874094228025103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172071792706210328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e857bd686b17e444b215b161003a73a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0

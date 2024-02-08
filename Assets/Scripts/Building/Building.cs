@@ -31,22 +31,23 @@ public class Building : Structure
 
         if ((recruitList.Count > 0) && (recruitList[0] != null))
         {
-            unitTimer += Time.deltaTime;
-        }
-        curUnitWaitTime = recruitList[0].UnitWaitTime;
+            unitTimer += Time.deltaTime; 
+            curUnitWaitTime = recruitList[0].UnitWaitTime;
 
-        if (unitTimer >= curUnitWaitTime)
-        {
-            curUnitProgress++;
-            unitTimer = 0f;
-
-            if (curUnitProgress >= 100)
+            if (unitTimer >= curUnitWaitTime)
             {
-                curUnitProgress = 0;
-                curUnitWaitTime = 0f;
-                CreateUnitCompleted();
+                curUnitProgress++;
+                unitTimer = 0f;
+
+                if (curUnitProgress >= 100)
+                {
+                    curUnitProgress = 0;
+                    curUnitWaitTime = 0f;
+                    CreateUnitCompleted();
+                }
             }
         }
+        
     }
         public void ToCreateUnit(int i)
     {
