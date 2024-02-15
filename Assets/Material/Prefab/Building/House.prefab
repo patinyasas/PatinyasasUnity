@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 3320199181872579168}
   - component: {fileID: 3384335723752200788}
   - component: {fileID: 8642500882015482855}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: House
-  m_TagString: Untagged
+  m_TagString: Building
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -198,8 +198,16 @@ PrefabInstance:
       value: BuildingSelection
       objectReference: {fileID: 0}
     - target: {fileID: 4696831720964977932, guid: c41c70ad07dda834692dc69590e9d05e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696831720964977932, guid: c41c70ad07dda834692dc69590e9d05e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4696831720964977932, guid: c41c70ad07dda834692dc69590e9d05e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
